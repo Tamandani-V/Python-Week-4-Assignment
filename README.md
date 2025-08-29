@@ -1,4 +1,4 @@
-# Vendors Data Processing
+# Vendors Data Processing (File handling and Exception Handling)
 
 ## Description
 This project includes a Python script that:
