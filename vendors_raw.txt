@@ -1,0 +1,3 @@
+Vendor: Apple | Data: iPhone 12 | Time: 10:00 AM
+Vendor: Samsung | Data: Galaxy S21 | Time: 11:00 AM
+Vendor: Google | Data: Pixel 5 | Time: 12:00 PM
