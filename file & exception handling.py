@@ -22,7 +22,14 @@ try:
     with open("vendors_revised.txt", "w") as outfile:
         outfile.writelines(cleaned_lines)
 
-    print("✅ vendors_cleaned.txt has been created with formatted entries.")
+    print("✅ vendors_revised.txt created with formatted entries.")
 
+except FileNotFoundError:
+        print(f"⚠️ Error: The file '{filename}' does not exist.")
+except IOError:
+        print(f"⚠️ Error: Could not read or write to file '{filename}'.")
+except IndexError:
+        print("⚠️ Error: The file's format is incorrect or unexpected.")
 except Exception as e:
     print(f"⚠️ An error occurred: {e}")
+
